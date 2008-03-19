@@ -1,0 +1,7 @@
+<h1><%= @selected %> is <%= @question %></h1>
+<% if @list.size == 1 %>     
+ <h2><%= @list.first %> is happy </h2>
+ <% else %>                        
+ <h2><%= humanize_names(@list) %> are happy</h2>
+ <% end %>
+
