@@ -1,19 +1,20 @@
+
 function tabHandler(e)
 {
-  var event = new Event(e);
+  var event = new Event(e);      
   if (event.key == "tab"){
     addUser(e);
+    event.stop();
   }
 }
 
 // Adds a user to the scene
 function addUser(e){
- 
   new Event(e).stop;     
-  
-  var del = new Element("img", {src: "/images/user_delete.png",    
-    class: "user_del",
-    events: {
+
+  var del = new Element("img", {"src": "/images/user_delete.png",    
+    "class": "user_del",
+    "events": {
       click: function(){
         this.getPrevious().remove();
         this.remove();
@@ -32,8 +33,9 @@ function addUser(e){
   text.injectBefore($("user_add"));     
   
   // add handler for text
-  text.addEvent("keydown", tabHandler);
-  
+  text.addEvent("keydown", tabHandler);     
+  text.focus();
+ 
 }
                            
 // Parses the result and is happy
@@ -45,7 +47,7 @@ function doTheDiceDance(e)
 
 // Initializer for the site
 function init(){   
-  
+
   // Add event listner for submit
   $("story").addEvent("submit", function(e){
     
@@ -53,7 +55,11 @@ function init(){
      this.send({
        onComplete: doTheDiceDance
      });
-  });                            
+  });                  
+  
+  $("user_add").addEvent("click", addUser); 
+  $("user_add").getPrevious().addEvent("keydown", tabHandler);
+            
 }
 
-window.addEvent("domready", init);
+window.addEvent("domready", init); 

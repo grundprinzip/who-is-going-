@@ -10,7 +10,10 @@ require File.join(Merb.root, 'config', 'dependencies')
 # need to change the order of things, just move the call to 'load_application'
 # around this file.
 puts "Loading Application..."
-Merb::BootLoader.load_application
+Merb::BootLoader.load_application           
+                                        
+# Mailer 
+Merb::Mailer.delivery_method = :sendmail
 
 # Load environment-specific configuration
 environment_config = File.join(Merb.root, 'config', 'environments', Merb.environment + '.rb')

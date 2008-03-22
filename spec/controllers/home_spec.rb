@@ -1,8 +1,7 @@
-require File.join(File.dirname(__FILE__), '..', 'spec_helper.rb')
+require File.join(File.dirname(__FILE__), "..", 'spec_helper.rb')
 
-describe "Homes Controller", "index action" do
+describe Home, "index action" do
   before(:each) do
-    @controller = Homes.build(fake_request)
-    @controller.dispatch('index')
+    dispatch_to(Home, :index)
   end
 end

@@ -1,19 +1,22 @@
 class Home < Application
   
   def index
-    render
+   render
   end               
+   
+  def test
+    render
+  end
   
   def result            
-    users = params[:user].select{ |e| !e.blank? }
+    users = params["user"].select{ |e| !e.blank? }
   
     @selected = users[rand(users.size)]   
-    @question = params[:question]
+    @question = params["question"]
     
     users.delete(@selected)
     @list = users
-    
-    
+
     partial "result"
   end
   

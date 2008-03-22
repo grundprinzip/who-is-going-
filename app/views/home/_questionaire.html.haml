@@ -11,9 +11,6 @@
     %input{:type => "text", :name => "user[]"}
     %input{:type => "text", :name => "user[]"}
     %img{:src => "/images/user_add.png", :id => "user_add"}
-    %script{:type => "text/javascript"}                            
-      $("user_add").addEvent("click", addUser); 
-      $("user_add").getPrevious().addEvent("keydown", tabHandler);
   
   %input{:type => "submit", :name => "choose", :value => "Let the dice roll", :id => "submit"}              
   

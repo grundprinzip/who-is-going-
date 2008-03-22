@@ -5,9 +5,11 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="/stylesheets/master.css" type="text/css" media="screen" charset="utf-8">    
     <%= js_include_tag "mootools-release-1.11" %>
-    <%= js_include_tag "application" %>
+    <%= js_include_tag "application" %>      
+    <script type="text/javascript" charset="utf-8">
+    </script> 
   </head>
-  <body>
-    <%= catch_content :layout %>
+  <body>                   
+    <%= catch_content :for_layout %> 
   </body>
 </html>
