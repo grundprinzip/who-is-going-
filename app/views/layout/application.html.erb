@@ -9,7 +9,16 @@
     <script type="text/javascript" charset="utf-8">
     </script> 
   </head>
+  <script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+  var pageTracker = _gat._getTracker("UA-259845-4");
+  pageTracker._initData();
+  pageTracker._trackPageview();
+  </script>
   <body>                   
-    <%= catch_content :for_layout %> 
+    <%= catch_content :for_layout %>  
   </body>
 </html>
