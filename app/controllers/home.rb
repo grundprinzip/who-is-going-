@@ -1,14 +1,11 @@
 class Home < Application
-  
+          
   def index
    render
   end               
    
-  def test
-    render
-  end
-  
   def result            
+    
     users = params["user"].select{ |e| !e.blank? }
   
     @selected = users[rand(users.size)]   

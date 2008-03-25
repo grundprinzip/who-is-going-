@@ -43,9 +43,18 @@ use_test :rspec
 
 ### Add your other dependencies here
 
+if defined? GettextLocalize
+  GettextLocalize::app_name = 'studipaper'
+  GettextLocalize::app_version = '0.0.1'
+  GettextLocalize::default_locale = 'en'
+  #GettextLocalize::default_methods = [:param, :session, :header]
+end
+
 # These are some examples of how you might specify dependencies.
-# 
-dependencies "merb_helpers", "merb-assets", "merb-haml", 'merb-mailer', 'merb-more'
+#                                                                              
+require 'gems/merb_localize-0.0.1/lib/merb_localize'
+
+dependencies "merb_helpers", "merb-assets", "merb-haml", 'merb-mailer', 'merb-more' #'merb_localize'
 # OR
 # dependency "RedCloth", "> 3.0"
 # OR
