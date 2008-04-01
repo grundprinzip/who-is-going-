@@ -1,0 +1,19 @@
+<% name ||= "default" %>
+<p><%= name %></p>
+
+<% form_tag :action => url({:controller  => :home, :action => :result}) do%>
+  <h1>So, what's the story? </h1>
+  Who is <%= text_field :name => "question" %>
+  <h1>And, your names?</h1>
+  <div class="users" id="users">
+    <%= text_field :name => "users[]" %>
+    <%= text_field :name => "users[]" %>
+    <img src="/images/user_add.png" id="user_add"/>
+  </div>                                        
+  
+  <%= submit_button "Let the dice roll", 
+    {:name => "choose", :id => "submit"} %>
+<% end %>
+
+<div id="result">
+</div>

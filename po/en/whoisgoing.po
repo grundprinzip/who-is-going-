@@ -1,0 +1,55 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Who is going?\n"
+"POT-Creation-Date: 2008-03-25 11:45+0100\n"
+"PO-Revision-Date: 2008-03-25 13:08+0100\n"
+"Last-Translator: Martin Grund\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+
+#: app/views/home/index.html.erb:8
+msgid "History"
+msgstr "History"
+
+#: app/views/home/index.html.erb:9
+msgid ""
+"It's always the same. If it is coffee time\n"
+"        everybody was the last time go fetch some good\n"
+"        coffee or cake..."
+msgstr ""
+"It's always the same. If it is coffee time\n"
+"        everybody was the last time go fetch some good\n"
+"        coffee or cake..."
+
+#: app/views/home/index.html.erb:12
+msgid ""
+"   Who is going to send the mail to the boss,\n"
+"           requesting a pay raise?"
+msgstr ""
+"   Who is going to send the mail to the boss,\n"
+"           requesting a pay raise?"
+
+#: app/views/home/index.html.erb:15
+msgid "Present"
+msgstr "Present"
+
+#: app/views/home/index.html.erb:16
+msgid ""
+"Whew.. these times are over now. Only enter\n"
+"        the question to the right and the names."
+msgstr ""
+"Whew.. these times are over now. Only enter\n"
+"        the question to the right and the names."
+
+#: app/views/home/index.html.erb:18
+msgid ""
+"Whoisgoing?  will choose the person to fulfill the\n"
+"         task  - for free and instantly"
+msgstr ""
+"Whoisgoing?  will choose the person to fulfill the\n"
+"         task  - for free and instantly"
+

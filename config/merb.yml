@@ -79,4 +79,4 @@
 
 # If you don't intend to parse JSON, use ActiveSupport, or want to roll your own
 # set this to true, to disable the loading of the JSON gem
-# :disable_json_gem: true
+# :disable_json_gem: true       

@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WhoIsGoing\n"
+"POT-Creation-Date: 2008-03-25 11:45+0100\n"
+"PO-Revision-Date: 2008-03-25 11:49+0100\n"
+"Last-Translator: Martin Grund\n"
+"Language-Team: Martin Grund\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+
+#: app/views/home/index.html.erb:8
+msgid "History"
+msgstr "Damals"
+
+#: app/views/home/index.html.erb:9
+msgid ""
+"It's always the same. If it is coffee time\n"
+"        everybody was the last time go fetch some good\n"
+"        coffee or cake..."
+msgstr "Es ist immer das Gleiche. Sobald es Kaffeezeit ist, war man selbst immer Kaffee holen und keine will gehen"
+
+#: app/views/home/index.html.erb:12
+msgid ""
+"   Who is going to send the mail to the boss,\n"
+"           requesting a pay raise?"
+msgstr "Wer schickt die E-Mail an den Boss, um nach einer Gehaltserhöung zu fragen?"
+
+#: app/views/home/index.html.erb:15
+msgid "Present"
+msgstr "Heute"
+
+#: app/views/home/index.html.erb:16
+msgid ""
+"Whew.. these times are over now. Only enter\n"
+"        the question to the right and the names."
+msgstr "Ein Glück sind diese Zeiten nun vorbei. Einfach nur noch die Frage eingeben und die Namen."
+
+#: app/views/home/index.html.erb:18
+msgid ""
+"Whoisgoing?  will choose the person to fulfill the\n"
+"         task  - for free and instantly"
+msgstr "Whoisgoing? wird die Person aussuchen, die die angegebene Aufgabe erfüllen soll - gratis und sofort"
+

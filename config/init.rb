@@ -50,11 +50,18 @@ if defined? GettextLocalize
   #GettextLocalize::default_methods = [:param, :session, :header]
 end
 
-# These are some examples of how you might specify dependencies.
-#                                                                              
-require 'gems/merb_localize-0.0.1/lib/merb_localize'
 
-dependencies "merb_helpers", "merb-assets", "merb-haml", 'merb-mailer', 'merb-more' #'merb_localize'
+dependencies "merb_helpers", "merb-assets", "merb-haml", 
+  'merb-mailer', 'merb-more', 'merb_localize', "twitter"
+
+gem 'pdf-writer'
+require 'pdf/writer'  
+                                     
+LANGUAGES = {:de => "Deutsch", 
+   :en => "English",
+   :fr => "French"}
+
+
 # OR
 # dependency "RedCloth", "> 3.0"
 # OR

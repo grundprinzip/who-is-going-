@@ -20,10 +20,27 @@
    </div>
    
    <div id="main-container">         
-     <%= partial "questionaire" %>
+     <%= partial "questionaire", :name => "foo"%>   
+     
+     <div id="adblock">   
+       <script type="text/javascript"><!--
+       google_ad_client = "pub-6736957322346688";
+       /* 468x60, Erstellt 28.03.08 */
+       google_ad_slot = "4888350877";
+       google_ad_width = 468;
+       google_ad_height = 60;
+       //-->
+       </script>
+       <script type="text/javascript"
+       src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+       </script>       
+     </div>
    </div>            
    
-   <div id="footer-container">
+   <div id="footer-container">  
+     <div id="languages">
+       <%= lang_links %>
+     </div>
      A <%= link_to "grundprinzip.de", "http://blog.grundprinzip.de" %> 
      production, (c) 2008
    </div>
