@@ -25,7 +25,7 @@ msgstr "Ok, eure Namen bitte"
 
 #: app/views/home/_questionaire.html.erb:11
 msgid "Let the dice roll"
-msgstr "Lasset die Spiele beginnen"
+msgstr "Lasset die Spiele beginnen "
 
 #: app/views/home/_result.html.erb:1
 msgid "is"
