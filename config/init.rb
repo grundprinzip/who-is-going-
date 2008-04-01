@@ -58,8 +58,9 @@ gem 'pdf-writer'
 require 'pdf/writer'  
                                      
 LANGUAGES = {:de => "Deutsch", 
-   :en => "English",
-   :fr => "French"}
+   :en => "English"#,
+#   :fr => "French"
+   }
 
 
 # OR

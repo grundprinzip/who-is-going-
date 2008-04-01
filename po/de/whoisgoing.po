@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WhoIsGoing\n"
-"POT-Creation-Date: 2008-03-25 11:45+0100\n"
+"Project-Id-Version: whoisgoing 1.0.0\n"
+"POT-Creation-Date: 2008-04-01 11:34+0200\n"
 "PO-Revision-Date: 2008-03-25 11:49+0100\n"
 "Last-Translator: Martin Grund\n"
 "Language-Team: Martin Grund\n"
@@ -10,6 +10,38 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: German\n"
 "X-Poedit-Country: GERMANY\n"
+
+#: app/views/home/_questionaire.html.erb:2
+msgid "So, what's the story? "
+msgstr "Und worum gehts?"
+
+#: app/views/home/_questionaire.html.erb:3
+msgid "Who is"
+msgstr "Wer wird"
+
+#: app/views/home/_questionaire.html.erb:4
+msgid "And, your names?"
+msgstr "Ok, eure Namen bitte"
+
+#: app/views/home/_questionaire.html.erb:11
+msgid "Let the dice roll"
+msgstr "Lasset die Spiele beginnen"
+
+#: app/views/home/_result.html.erb:1
+msgid "is"
+msgstr "wird"
+
+#: app/views/home/_result.html.erb:3
+msgid "is happy"
+msgstr "ist glücklich"
+
+#: app/views/home/_result.html.erb:5
+msgid "are happy"
+msgstr "sind glücklich"
+
+#: app/views/home/_result.html.erb:8
+msgid "Next question"
+msgstr "Nächste Frage"
 
 #: app/views/home/index.html.erb:8
 msgid "History"
@@ -20,13 +52,16 @@ msgid ""
 "It's always the same. If it is coffee time\n"
 "        everybody was the last time go fetch some good\n"
 "        coffee or cake..."
-msgstr "Es ist immer das Gleiche. Sobald es Kaffeezeit ist, war man selbst immer Kaffee holen und keine will gehen"
+msgstr ""
+"Es ist immer das Gleiche. Sobald es Kaffeezeit ist, war man selbst immer "
+"Kaffee holen und keine will gehen"
 
 #: app/views/home/index.html.erb:12
 msgid ""
 "   Who is going to send the mail to the boss,\n"
 "           requesting a pay raise?"
-msgstr "Wer schickt die E-Mail an den Boss, um nach einer Gehaltserhöung zu fragen?"
+msgstr ""
+"Wer schickt die E-Mail an den Boss, um nach einer Gehaltserhöung zu fragen?"
 
 #: app/views/home/index.html.erb:15
 msgid "Present"
@@ -36,11 +71,14 @@ msgstr "Heute"
 msgid ""
 "Whew.. these times are over now. Only enter\n"
 "        the question to the right and the names."
-msgstr "Ein Glück sind diese Zeiten nun vorbei. Einfach nur noch die Frage eingeben und die Namen."
+msgstr ""
+"Ein Glück sind diese Zeiten nun vorbei. Einfach nur noch die Frage eingeben "
+"und die Namen."
 
 #: app/views/home/index.html.erb:18
 msgid ""
 "Whoisgoing?  will choose the person to fulfill the\n"
 "         task  - for free and instantly"
-msgstr "Whoisgoing? wird die Person aussuchen, die die angegebene Aufgabe erfüllen soll - gratis und sofort"
-
+msgstr ""
+"Whoisgoing? wird die Person aussuchen, die die angegebene Aufgabe erfüllen "
+"soll - gratis und sofort"

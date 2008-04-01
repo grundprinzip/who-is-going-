@@ -8,18 +8,6 @@ class Home < Application
     # Should do the pdf thingie and the twitter shout and the email....
     
   end          
-                                       
-  def test_def
-    render_then_call("hallo") do 
-      1 + 1
-    end
-  end
-  
-  def stream
-    stream_file(:filename => "test") do |response|
-      response.write "test"
-    end
-  end
    
   def result            
     

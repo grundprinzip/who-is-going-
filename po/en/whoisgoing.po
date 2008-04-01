@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Who is going?\n"
-"POT-Creation-Date: 2008-03-25 11:45+0100\n"
+"Project-Id-Version: whoisgoing 1.0.0\n"
+"POT-Creation-Date: 2008-04-01 11:34+0200\n"
 "PO-Revision-Date: 2008-03-25 13:08+0100\n"
 "Last-Translator: Martin Grund\n"
 "Language-Team: \n"
@@ -10,6 +10,38 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: English\n"
 "X-Poedit-Country: UNITED STATES\n"
+
+#: app/views/home/_questionaire.html.erb:2
+msgid "So, what's the story? "
+msgstr ""
+
+#: app/views/home/_questionaire.html.erb:3
+msgid "Who is"
+msgstr ""
+
+#: app/views/home/_questionaire.html.erb:4
+msgid "And, your names?"
+msgstr ""
+
+#: app/views/home/_questionaire.html.erb:11
+msgid "Let the dice roll"
+msgstr ""
+
+#: app/views/home/_result.html.erb:1
+msgid "is"
+msgstr ""
+
+#: app/views/home/_result.html.erb:3
+msgid "is happy"
+msgstr ""
+
+#: app/views/home/_result.html.erb:5
+msgid "are happy"
+msgstr ""
+
+#: app/views/home/_result.html.erb:8
+msgid "Next question"
+msgstr ""
 
 #: app/views/home/index.html.erb:8
 msgid "History"
@@ -52,4 +84,3 @@ msgid ""
 msgstr ""
 "Whoisgoing?  will choose the person to fulfill the\n"
 "         task  - for free and instantly"
-
